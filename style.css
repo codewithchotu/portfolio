@@ -71,12 +71,26 @@ justify-content:space-between;
 padding:0 20px;
 }
 
-.logo{
-font-size:1.3rem;
-font-weight:800;
-letter-spacing:2px;
+.logo img{
+width:44px;
+height:44px;
+border-radius:50%;
+object-fit:cover;
+border:1px solid rgba(255,255,255,.1);
+box-shadow:0 0 20px rgba(96,165,250,.25);
 }
 
+.logo span{
+background:linear-gradient(
+90deg,
+#ffffff,
+#60a5fa,
+#8b5cf6
+);
+-webkit-background-clip:text;
+color:transparent;
+font-weight:800;
+}
 .nav-links{
 display:flex;
 gap:35px;
